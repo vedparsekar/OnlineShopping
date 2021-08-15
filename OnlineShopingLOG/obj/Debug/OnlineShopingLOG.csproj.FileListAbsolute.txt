@@ -1,0 +1,7 @@
+C:\Users\ved parsekar\source\repos\OnlineShopping\OnlineShopingLOG\obj\Debug\OnlineShopingLOG.csprojAssemblyReference.cache
+C:\Users\ved parsekar\source\repos\OnlineShopping\OnlineShopingLOG\obj\Debug\OnlineShopingLOG.csproj.CoreCompileInputs.cache
+C:\Users\ved parsekar\source\repos\OnlineShopping\OnlineShopingLOG\obj\Debug\OnlineShopingLOG.exe
+C:\Users\ved parsekar\source\repos\OnlineShopping\OnlineShopingLOG\obj\Debug\OnlineShopingLOG.pdb
+C:\Users\ved parsekar\source\repos\OnlineShopping\OnlineShopingLOG\bin\Debug\OnlineShopingLOG.exe.config
+C:\Users\ved parsekar\source\repos\OnlineShopping\OnlineShopingLOG\bin\Debug\OnlineShopingLOG.exe
+C:\Users\ved parsekar\source\repos\OnlineShopping\OnlineShopingLOG\bin\Debug\OnlineShopingLOG.pdb

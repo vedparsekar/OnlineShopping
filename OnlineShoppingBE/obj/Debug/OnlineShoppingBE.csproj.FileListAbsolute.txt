@@ -1,0 +1,7 @@
+C:\Users\ved parsekar\source\repos\OnlineShopping\OnlineShoppingBE\bin\Debug\OnlineShoppingBE.exe.config
+C:\Users\ved parsekar\source\repos\OnlineShopping\OnlineShoppingBE\bin\Debug\OnlineShoppingBE.exe
+C:\Users\ved parsekar\source\repos\OnlineShopping\OnlineShoppingBE\bin\Debug\OnlineShoppingBE.pdb
+C:\Users\ved parsekar\source\repos\OnlineShopping\OnlineShoppingBE\obj\Debug\OnlineShoppingBE.csprojAssemblyReference.cache
+C:\Users\ved parsekar\source\repos\OnlineShopping\OnlineShoppingBE\obj\Debug\OnlineShoppingBE.csproj.CoreCompileInputs.cache
+C:\Users\ved parsekar\source\repos\OnlineShopping\OnlineShoppingBE\obj\Debug\OnlineShoppingBE.exe
+C:\Users\ved parsekar\source\repos\OnlineShopping\OnlineShoppingBE\obj\Debug\OnlineShoppingBE.pdb
