@@ -1,0 +1,78 @@
+.form-holder {
+	 display: block;
+}
+
+ .form-holder .main-content {
+	 width: 100%;
+	 padding: 20px;
+	 margin-left: auto;
+	 margin-right: auto;
+	 box-shadow: 0 0 8px 0 #000;
+     width: 550px;
+}
+ .form-holder .main-content .form-heder {
+	 color: #1e3f63;
+	 font-size: 22px;
+	 text-transform: capitalize;
+	 text-align: center;
+	 margin-bottom: 40px;
+	 font-weight: 600;
+}
+ .form-holder .main-content .form-group input {
+	 background-color: transparent;
+	 /* border: 1px solid #fff; */
+	 /* color: #fff; */
+	 height: 50px;
+}
+ 
+ .form-holder .main-content .form-group.has-icon .icon {
+	 font-size: 20px;
+}
+ .form-holder .main-content .terms-condition {
+	 color: #fff;
+	 font-weight: 600;
+	 margin-bottom: 30px;
+}
+ .form-holder .main-content .or-block {
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 color: #fff;
+	 position: relative;
+	 width: 100%;
+}
+ .form-holder .main-content .or-block:after, .form-holder .main-content .or-block:before {
+	 content: "";
+	 width: 45%;
+	 height: 1px;
+	 background-color: #fff;
+	 position: absolute;
+}
+ .form-holder .main-content .or-block:after {
+	 left: 0;
+}
+ .form-holder .main-content .or-block:before {
+	 right: 0;
+}
+ .form-holder .main-content .social-account-login-holder {
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 flex-direction: column;
+}
+ .form-holder .main-content .social-account-login-holder .btn {
+	 font-size: 14px;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 width: 100%;
+	 margin-bottom: 10px;
+}
+ .form-holder .main-content .social-account-login-holder .btn img {
+	 margin-right: 8px;
+}
+ .form-holder .main-content .sign-in-link {
+	 color: #fff;
+	 text-align: center;
+}
+ 
