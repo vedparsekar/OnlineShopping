@@ -1,0 +1,152 @@
+.order-card-holder {
+	 background-color: #fff;
+	 box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+	 border-radius: 10px;
+	 margin-bottom: 20px;
+}
+ .order-card-holder .order-card-header {
+	 padding: 20px;
+	 border-bottom: 1px solid #e2e2e2;
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 padding-bottom: 20px;
+	 flex-wrap: wrap;
+}
+ .order-card-holder .order-card-header .order-date-holder {
+	 display: flex;
+	 align-items: center;
+	 flex-wrap: wrap;
+	 margin-bottom: 0;
+}
+ .order-card-holder .order-card-header .order-date-holder .order-number-holder {
+	 margin-right: 22px;
+}
+
+ .order-card-holder .order-card-header .order-date-holder .order-number-holder .order-number-text {
+	 color: #5bd0e6;
+}
+ .order-card-holder .order-card-header .order-date-holder .order-number-holder .order-number {
+	 color: #1e3f63;
+}
+ .order-card-holder .order-card-header .order-date-holder .order-date {
+	 color: #c4c4c4;
+}
+ .order-card-holder .order-card-header .btn {
+	 width: auto;
+}
+ .order-card-holder .order-card-header .btn .icon {
+	 color: #fff;
+}
+ .order-card-holder .order-card-content {
+	 padding: 20px;
+	 display: flex;
+	 justify-content: space-between;
+	 border-bottom: 1px solid #e2e2e2;
+	 flex-wrap: wrap;
+}
+ .order-card-holder .order-card-content .product-details-holder {
+	 display: flex;
+	 margin-bottom: 0;
+}
+ .order-card-holder .order-card-content .product-details-holder .product-image {
+	 height: 120px;
+	 width: 100px;
+	 margin-right: 20px;
+}
+ .order-card-holder .order-card-content .product-details-holder .product-image img {
+	 height: 100%;
+	 width: 100%;
+	 object-fit: cover;
+	 object-position: center;
+}
+ .order-card-holder .order-card-content .product-details-holder .product-details .product-name {
+	 color: #1e3f63;
+	 font-weight: 600;
+}
+ .order-card-holder .order-card-content .product-details-holder .product-details .vendor-name {
+	 font-size: 14px;
+	 color: #c4c4c4;
+	 margin-bottom: 30px;
+}
+ .order-card-holder .order-card-content .product-details-holder .product-details .quantity-price .quantity {
+	 color: #c4c4c4;
+}
+ .order-card-holder .order-card-content .product-details-holder .product-details .quantity-price .price {
+	 font-weight: 600;
+}
+ .order-card-holder .order-card-content .product-details-holder .product-details .quantity-price .price .icon {
+	 font-size: 12px;
+	 color: #1e3f63;
+}
+ .order-card-holder .order-card-content .product-status .status-label {
+	 font-size: 14px;
+	 color: #c4c4c4;
+}
+ .order-card-holder .order-card-content .product-status .product-status {
+	 font-size: 15px;
+	 color: #307fe2;
+	 font-weight: bold;
+}
+ .order-card-holder .order-card-content .product-delivery-date .delivery-label {
+	 font-size: 14px;
+	 color: #c4c4c4;
+}
+ .order-card-holder .order-card-content .product-delivery-date .delivery-date {
+	 font-size: 20px;
+	 color: #307fe2;
+	 font-weight: bold;
+}
+ .order-card-holder .order-card-content .product-delivery-date .feedback-link {
+	 margin-top: 20px;
+	 font-weight: 600;
+	 text-decoration: underline;
+	 color: #1e3f63;
+}
+ .order-card-holder .order-card-footer {
+	 display: flex;
+	 align-items: center;
+	 flex-wrap: wrap;
+}
+ .order-card-holder .order-card-footer .cancel-btn {
+	 padding: 20px;
+	 color: #1e3f63;
+	 width: auto;
+	 border-right: 1px solid #e2e2e2;
+}
+
+.order-card-holder .order-card-footer .cancel-btn:hover{
+    background-color: #1e3f63;
+    color: #fff;
+    cursor: pointer;
+}
+
+.order-card-holder .order-card-footer .cancel-btn:hover svg line{
+    stroke: #fff !important;
+}
+
+ .order-card-holder .order-card-footer .cancel-btn .icon-cancel svg{
+     height: 11px;
+     width: 12px;
+}
+ .order-card-holder .order-card-footer .payment-total {
+	 padding: 20px;
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+	 flex-wrap: wrap;
+	 flex: 1;
+}
+ .order-card-holder .order-card-footer .payment-total .payment-card {
+	 color: #c4c4c4;
+	 margin-bottom: 0;
+}
+ .order-card-holder .order-card-footer .payment-total .total {
+	 font-weight: bold;
+	 font-size: 16px;
+}
+ .order-card-holder .order-card-footer .icon {
+	 color: #1e3f63;
+	 font-size: 12px;
+}
+ 
