@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ODL.master.cs" Inherits="OnlineShopping.ODL" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 747px;
+        }
+        .auto-style2 {
+            width: 672px;
+            height: 84px;
+            position: absolute;
+            top: 437px;
+            left: 13px;
+            z-index: 1;
+        }
+        .auto-style3 {
+            width: 116px;
+            height: 327px;
+            position: absolute;
+            top: 102px;
+            left: 15px;
+            z-index: 1;
+        }
+        .auto-style4 {
+            width: 109px;
+            height: 327px;
+            position: absolute;
+            top: 105px;
+            z-index: 1;
+            left: 568px;
+        }
+        .auto-style5 {
+            width: 434px;
+            height: 319px;
+            position: absolute;
+            top: 107px;
+            left: 131px;
+            z-index: 1;
+        }
+        .auto-style6 {
+            position: absolute;
+            top: 36px;
+            left: 461px;
+            z-index: 1;
+            width: 74px;
+            height: 29px;
+        }
+        .auto-style7 {
+            position: absolute;
+            top: 37px;
+            left: 543px;
+            z-index: 1;
+            width: 72px;
+            height: 28px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="auto-style1">
+            <asp:Panel ID="PanelHead" runat="server" Height="79px">
+                <asp:Panel ID="penalFooter" runat="server" CssClass="auto-style2">
+                </asp:Panel>
+                <asp:Panel ID="PanelLeft" runat="server" CssClass="auto-style3">
+                </asp:Panel>
+                <asp:Panel ID="PenalRight" runat="server" CssClass="auto-style4">
+                </asp:Panel>
+                <asp:Panel ID="PanelCenter" runat="server" CssClass="auto-style5">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </asp:Panel>
+                <asp:ImageButton ID="imgbtnHome" runat="server" CssClass="auto-style6" ImageUrl="~/Images/home button.jpg" />
+                <asp:ImageButton ID="ImageButton1" runat="server" CssClass="auto-style7" ImageUrl="~/Images/about us button.jpg" />
+            </asp:Panel>
+        </div>
+    </form>
+</body>
+</html>

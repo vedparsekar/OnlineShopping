@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="OnlineShopping.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Style/exstyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="main">
+<header>
+<div id="logo">
+<div id="logo_text">
+<!-- class="logo_colour", allows you to change the colour of the text -->
+<h1><a href="index.html">CCS3<span class="logo_colour">_contrast</span></a></h1>
+<h2>Simple. Contemporary. Website Template.</h2>
+</div>
+</div>
+<nav>
+<div id="menu_container">
+<ul class="sf-menu" id="nav">
+<li><a href="index.html">Home</a></li>
+<li><a href="examples.html">Examples</a></li>
+<li><a href="page.html">A Page</a></li>
+<li><a href="another_page.html">Another Page</a></li>
+<li><a href="#">Example Drop Down</a>
+<ul>
+<li><a href="#">Drop Down One</a></li>
+<li><a href="#">Drop Down Two</a>
+<ul>
+<li><a href="#">Sub Drop Down One</a></li>
+<li><a href="#">Sub Drop Down Two</a></li>
+<li><a href="#">Sub Drop Down Three</a></li>
+<li><a href="#">Sub Drop Down Four</a></li>
+<li><a href="#">Sub Drop Down Five</a></li>
+</ul>
+</li>
+<li><a href="#">Drop Down Three</a></li>
+<li><a href="#">Drop Down Four</a></li>
+<li><a href="#">Drop Down Five</a></li>
+</ul>
+</li>
+<li><a href="contact.php">Contact Us</a></li>
+</ul>
+</div>
+</nav>
+</header>
+
+<div id="scroll">
+<a title="Scroll to the top" class="top" href="#"><img src="Images/top.png" alt="top" /></a>
+</div>
+<footer>
+<p><img src="images/twitter.png" alt="twitter" />&nbsp;<img src="images/facebook.png" alt="facebook" />&nbsp;<img src="images/rss.png" alt="rss" /></p>
+<p><a href="index.html">Home</a> | <a href="examples.html">Examples</a> | <a href="page.html">A Page</a> | <a href="another_page.html">Another Page</a> | <a href="contact.php">Contact Us</a></p>
+<p>Copyright &copy; CSS3_contrast | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+</footer>
+</div>
+
+<%-- https://www.freewebtemplates.com/jquery-templates/2/--%>
+
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+</asp:ContentPlaceHolder>
+
+</form>
+</body>
+</html>
